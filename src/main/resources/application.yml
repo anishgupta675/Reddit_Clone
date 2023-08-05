@@ -1,0 +1,18 @@
+app:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5432/aec
+    username: postgres
+    password: password
+    pool-size: 30
+    initialize: true
+spring:
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 25
+    username: 689a755f64ea15
+    password: 13a15b1a7f7eb7
+    protocol: smtp
+jwt:
+  expiration:
+    time: 900000
